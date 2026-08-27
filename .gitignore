@@ -1,0 +1,7 @@
+.venv
+__pycache__
+data/processed
+data/reports
+data/ann_results
+data/validation
+all training CSV files
