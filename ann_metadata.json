@@ -1,0 +1,22 @@
+{
+    "random_seed": 42,
+    "feature_columns": [
+        "butane_pct",
+        "straight_run_naphtha_pct",
+        "isomerate_pct",
+        "reformate_high_octane_pct",
+        "reformate_low_benzene_pct",
+        "fcc_naphtha_pct",
+        "alkylate_pct"
+    ],
+    "ann_target_columns": [
+        "RON_nonlinear",
+        "MON_nonlinear",
+        "RVP_1_25",
+        "benzene",
+        "cost_per_gal"
+    ],
+    "training_fraction": 0.7,
+    "validation_fraction": 0.15,
+    "testing_fraction": 0.15
+}
