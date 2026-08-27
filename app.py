@@ -14,10 +14,10 @@ import tensorflow as tf
 # FILE PATHS
 # =========================================================
 
-MODEL_PATH = "models/ann/blendguard_ann_final.keras"
-X_SCALER_PATH = "models/ann/scalers/X_scaler.joblib"
-Y_SCALER_PATH = "models/ann/scalers/y_scaler.joblib"
-METADATA_PATH = "data/ann/ann_metadata.json"
+MODEL_PATH = "blendguard_ann_final.keras"
+X_SCALER_PATH = "X_scaler.joblib"
+Y_SCALER_PATH = "y_scaler.joblib"
+METADATA_PATH = "ann_metadata.json"
 
 
 # =========================================================
